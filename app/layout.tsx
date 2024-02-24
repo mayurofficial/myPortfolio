@@ -10,8 +10,8 @@ import { Toaster } from "react-hot-toast";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Ricardo | Personal Portfolio",
-  description: "Ricardo is a full-stack developer with 8 years of experience.",
+  title: "Mayur | Personal Portfolio",
+  description: "Mayur is a React & React Native developer with 3+ years of experience.",
 };
 
 export default function RootLayout({
@@ -31,7 +31,7 @@ export default function RootLayout({
           <ActiveSectionContextProvider>
             <Header />
             {children}
-            <Footer />
+            {/* <Footer /> */}
 
             <Toaster position="top-right" />
             <ThemeSwitch />
