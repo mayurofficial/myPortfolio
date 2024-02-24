@@ -34,7 +34,7 @@ export default function Contact() {
       <p className="text-gray-700 -mt-6 dark:text-white/80">
         Please contact me directly at{" "}
         <a className="underline" href="mailto:mayurbhgn108@gmail.com">
-        mayurbhgn108@gmail.com
+          mayurbhgn108@gmail.com
         </a>{" "}
         or through this form.
       </p>
@@ -42,8 +42,6 @@ export default function Contact() {
       <form
         className="mt-10 flex flex-col dark:text-black"
         action={async (formData) => {
-          alert("Ahem ahem! API setup nahi hai direct mail hi kardo")
-          return
           const { data, error } = await sendEmail(formData);
 
           if (error) {
