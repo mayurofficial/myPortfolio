@@ -4,6 +4,16 @@ import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import ZealApp from "@/public/1.png";
 import HiringPortal from "@/public/2.png";
+import Simplee from "@/public/3.jpg";
+import BreakoutGameImage from "@/public/4.png";
+import LexterJobPortalImage from "@/public/5.png";
+import IIATOImage from "@/public/6.png";
+import NotesAppImage from "@/public/6.png";
+import TodoListImage from "@/public/7.png";
+
+NotesAppImage
+
+
 
 export const links = [
   {
@@ -70,7 +80,7 @@ export const experiencesData = [
 export const projectsData = [
   {
     title: "ZEAL— Activities with Friends",
-    description: "An application that helps you connect with your friends and engage in activities you shared.",
+    description: "A social media application that helps you connect with your friends and engage in activities you shared.",
     tags: ["React JS", "React Native", "Expo", "Material UI", "CSS", "SCSS", "Redux", "Firebase", "CometChat"],
     imageUrl: ZealApp, // Replace with the actual image path
   },
@@ -78,7 +88,7 @@ export const projectsData = [
     title: "SIMPLEE— Real Estate Management",
     description: "Simplee is an online real estate software application that manages overall operational activities and processes.",
     tags: ["React JS", "Next Js", "Material UI", "CSS", "SCSS", "Redux", "Framer Motion"],
-    imageUrl: ZealApp, // Replace with the actual image path
+    imageUrl: Simplee, // Replace with the actual image path
   },
   {
     title: "NFX Hiring Portal— Hiring Portal",
@@ -86,7 +96,38 @@ export const projectsData = [
     tags: ["React JS", "Material UI", "CSS/SCSS", "Redux"],
     imageUrl: HiringPortal, // Replace with the actual image path
   },
+  {
+    title: "Breakout Game in Canvas and Vanilla JS — Focus, calm & meditation",
+    description: "A fun project based on core JavaScript, focusing on 2D animation and collision detection for the Breakout world.",
+    tags: ["HTML", "CSS", "JavaScript", "Canvas"],
+    imageUrl: BreakoutGameImage, // Replace with the actual image path
+  },
+  {
+    title: "LEXTER— Job Portal",
+    description: "Build a responsive job portal for internal recruitment purposes.",
+    tags: ["HTML", "CSS", "SCSS", "Bootstrap 4.5", "JavaScript", "Material UI"],
+    imageUrl: LexterJobPortalImage, // Replace with the actual image path
+  },
+  // {
+  //   title: "IIATO— Order Management System",
+  //   description: "A website with a high-quality SEO-friendly landing page to introduce customers to the product.",
+  //   tags: ["HTML", "CSS", "SCSS", "Bootstrap 5", "JavaScript"],
+  //   imageUrl: IIATOImage, // Replace with the actual image path
+  // },
+  {
+    title: "Notes App— Productivity",
+    description: "A personal project aiming to build a working React application to master React state management.",
+    tags: ["React Js", "CSS", "SCSS", "JavaScript"],
+    imageUrl: NotesAppImage, // Replace with the actual image path
+  },
+  {
+    title: "Todo List— Productivity",
+    description: "A personal project aiming to build a working React application to learn React hooks and state management.",
+    tags: ["React Js", "CSS", "SCSS", "JavaScript"],
+    imageUrl: TodoListImage, // Replace with the actual image path
+  },
 ] as const;
+
 
 export const skillsData = [
   "HTML",
